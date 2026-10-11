@@ -87,12 +87,10 @@
   }
 
   // ---------- Home / Research / Contact ----------
-  function renderSite(s, news) {
+  function renderSite(s) {
     if (page === 'home') {
       fill('.thesis', `<a href="research.html">${esc(s.tagline)}</a>`);
       fill('.lede', esc(s.home_intro));
-      const latest = [...news.posts].sort((a, b) => String(b.date).localeCompare(String(a.date))).slice(0, 3);
-      fill('.latest ul', latest.map(p => `<li><time>${fmtDate(p.date)}</time><a href="news.html#${anchor(p)}">${esc(p.title)}</a></li>`).join(''));
     }
     if (page === 'research') {
       fill('.subtitle', esc(s.research_title));
@@ -109,5 +107,5 @@
   if (page === 'people') load('people').then(renderPeople).catch(fail);
   else if (page === 'publications') load('publications').then(renderPubs).catch(fail);
   else if (page === 'news') load('news').then(renderNews).catch(fail);
-  else Promise.all([load('site'), load('news')]).then(([s, n]) => renderSite(s, n)).catch(fail);
+  else load('site').then(s => renderSite(s)).catch(fail);
 })();

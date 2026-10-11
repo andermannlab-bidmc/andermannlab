@@ -3,10 +3,10 @@
 :root {
   color-scheme: light;
   --paper: #ffffff;
-  --ink: #222222;          /* old site: headings / strong */
-  --body: #666666;         /* old site: running text */
-  --grey: #9c9c9c;          /* old site: nav + subtitles */
-  --hair: #cccccc;          /* old site: hr */
+  --ink: #111111;          /* old site: headings / strong */
+  --body: #2b2b2b;         /* old site: running text */
+  --grey: #4a4a4a;          /* old site: nav + subtitles */
+  --hair: #d4d4d4;          /* old site: hr */
   --lab-red: #1e1a8e;       /* old site: title color (indigo) */
   --blank: #f0f0f0;
   --title-face: "Jost", "Brandon Grotesque", "Futura", "Century Gothic", sans-serif;  /* stands in for the old site's Brandon Grotesque */
@@ -14,24 +14,24 @@
   "Helvetica Neue", Arial, sans-serif;
 }
 * { box-sizing: border-box; }
-body { background: var(--paper); color: var(--body); font-family: var(--face); font-weight: 300; letter-spacing: .02em; font-size: 15px; line-height: 1.8; padding-inline: 20px; }
+body { background: var(--paper); color: var(--body); font-family: var(--face); font-weight: 400; letter-spacing: .01em; font-size: 16px; line-height: 1.75; padding-inline: 20px; }
 a { color: var(--ink); font-weight: 400; text-underline-offset: 3px; }
 a:focus-visible { outline: 2px solid var(--lab-red); outline-offset: 3px; }
 
 header.site { text-align: center; padding-block: 44px 8px; }
 .wordmark { font-family: var(--title-face); color: var(--lab-red); font-size: clamp(1.7rem, 5vw, 2.25rem); font-weight: 800; letter-spacing: .08em; text-decoration: none; line-height: 1.1; }
-.affil { color: #aaaaaa; font-size: .8rem; letter-spacing: .04em; margin-top: 6px; }
+.affil { color: #4a4a4a; font-weight: 600; font-size: .8rem; letter-spacing: .04em; margin-top: 6px; }
 nav ul { list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 30px; margin: 22px 0 0; padding: 0; }
-nav a { letter-spacing: .06em; text-decoration: none; font-size: .95rem; font-weight: 400; color: var(--grey); }
+nav a { font-family: var(--title-face); text-transform: uppercase; letter-spacing: .12em; text-decoration: none; font-size: .9rem; font-weight: 600; color: var(--ink); }
 nav a:hover, nav a[aria-current] { color: var(--ink); }
-nav a[aria-current] { color: #000; }
+nav a[aria-current] { color: var(--lab-red); border-bottom: 2px solid var(--lab-red); }
 
 main { max-width: 1000px; margin: 0 auto; padding-block: 20px 56px; }
 .tier { padding-block: 44px; }
 .tier + .tier::before { content: ""; display: block; width: min(160px, 40%); height: 1px; background: var(--hair); margin: -44px auto 44px; }
 .tier.alum { margin-top: 24px; border-top: 1px solid var(--hair); }
 .tier.alum::before { display: none; }
-.tier h2 { font-family: var(--title-face); text-transform: uppercase; letter-spacing: .14em; text-align: center; font-weight: 500; font-size: 1.3rem; margin: 0 0 32px; }
+.tier h2 { font-family: var(--title-face); text-transform: uppercase; letter-spacing: .14em; text-align: center; font-weight: 800; color: var(--ink); font-size: 1.3rem; margin: 0 0 32px; }
 
 .grid { margin-inline: auto; display: flex; flex-wrap: wrap; justify-content: center; gap: 44px 34px; }
 .person { width: 216px; max-width: 100%; text-align: center; }
@@ -48,8 +48,8 @@ main { max-width: 1000px; margin: 0 auto; padding-block: 20px 56px; }
 @keyframes tune { 0% { opacity: .9; transform: translateY(-4px); } 60% { opacity: .5; } 100% { opacity: 0; transform: none; } }
 .photo .initials { position: absolute; inset: 0; display: grid; place-items: center; font-size: 2.2rem; font-weight: 500; color: var(--grey); }
 
-.name { color: var(--ink); font-weight: 700; font-size: .98rem; margin: 20px 0 2px; line-height: 1.35; }
-.title { font-family: var(--title-face); font-weight: 500; font-size: .78rem; text-transform: uppercase; letter-spacing: .14em; color: var(--grey); margin: 2px 0 6px; line-height: 1.35; }
+.name { color: var(--ink); font-weight: 800; font-size: 1.05rem; margin: 20px 0 2px; line-height: 1.35; }
+.title { font-family: var(--title-face); font-weight: 600; font-size: .8rem; text-transform: uppercase; letter-spacing: .12em; color: var(--lab-red); margin: 2px 0 6px; line-height: 1.35; }
 .email { color: var(--grey); font-size: .9rem; overflow-wrap: anywhere; }
 .scholar { display: inline-block; margin-top: 10px; font-style: italic; font-size: .92rem; }
 .awards { list-style: none; margin: 12px auto 0; padding: 0; text-align: left; font-style: italic; color: var(--grey); font-size: .88rem; line-height: 1.55; max-width: 100%; }
@@ -71,7 +71,7 @@ footer { max-width: 1000px; margin: 0 auto; padding-block: 26px 48px; border-top
 @media (max-width: 520px) { .person, .tier.pi .person, .tier.postdocs .person, .tier.grads .person { width: 100%; max-width: 320px; } }
 
 /* ---------- shared page pieces ---------- */
-.page-title { font-family: var(--title-face); font-weight: 500; font-size: 1.45rem; text-transform: uppercase; letter-spacing: .16em; text-align: center; margin: 12px 0 6px; }
+.page-title { font-family: var(--title-face); font-weight: 800; color: var(--ink); font-size: 1.45rem; text-transform: uppercase; letter-spacing: .16em; text-align: center; margin: 12px 0 6px; }
 .subtitle { text-align: center; color: var(--grey); margin: 0 auto 40px; max-width: 60ch; text-wrap: balance; }
 .prose { max-width: 66ch; margin: 0 auto; line-height: 1.8; }
 .prose p + p { margin-top: 1.2em; }
@@ -138,3 +138,12 @@ figcaption b { color: var(--ink); font-weight: 600; }
   .gallery.n3 { grid-template-columns: repeat(2, 1fr); }
 }
 figure video { display: block; width: 100%; height: auto; background: #000; }
+
+/* stronger type pass */
+.alumni b { font-weight: 800; color: var(--ink); }
+.alum-group, .contact h2, .pub-year h2 { color: var(--ink) !important; font-weight: 800 !important; }
+.awards { color: #333 !important; }
+.pub-year strong { color: var(--ink); font-weight: 800; }
+footer { color: #555; }
+.thesis { font-weight: 800; }
+.edit-link { display: inline-block; margin-top: 10px; font-size: .78rem; color: #555; }

@@ -1,9 +1,29 @@
 {
  "papers": [
   {
-   "year": 2024,
-   "citation": "Zhang, SX*†, Kim, A*, Madara, JC, Zhu, PK, Christenson, LF, Lutas, A, Kalugin, PN, Sunkavalli, PS, Jin, Y, Pal, A, Tian, L, Lowell, BB, Andermann, ML†. Competition between stochastic neuropeptide signals calibrates the rate of satiation. Nature, in press (2024). (*co-first authors; †co-corresponding authors.",
-   "link": ""
+   "year": 2026,
+   "citation": "Singh Alvarado J, Massengill CI, Stern J, Amsalem O, Ventura BF, Jang A, Cook S, Veliche A, Sunkavalli P, Patel D, Colaccino J, Evans KE, Wang Y, Andermann ML. EASI-PASS: An accessible pipeline for linking functional imaging and mRNA profiling. bioRxiv (2026).",
+   "link": "https://doi.org/10.64898/2026.08.21.746328"
+  },
+  {
+   "year": 2026,
+   "citation": "Essner RA, Ruda K, Choh HJ, Kucukdereli H, Amsalem O, Edelhaus J, Grodem S, Lensjo KK, Lever TE, Andermann ML. Brainstem sensing of multiple body signals during food consumption. Neuron (2026).",
+   "link": "https://www.cell.com/neuron/abstract/S0896-6273(26)00645-8"
+  },
+  {
+   "year": 2026,
+   "citation": "Kalugin PN, Soden PA, Massengill CI, Amsalem O, Porniece M, Guarino DC, Tingley D, Zhang SX, Benson JC, Hammell MF, Tong DM, Ausfahl CD, Lacey TE, Courtney Y, Hochstetler A, Lutas A, Wang H, Geng L, Li G, Li B, Li Y, Lehtinen MK, Andermann ML. Simultaneous, real-time tracking of many neuromodulatory signals with Multiplexed Optical Recording of Sensors on a micro-Endoscope. Neuron (2026).",
+   "link": "https://doi.org/10.1016/j.neuron.2026.07.008"
+  },
+  {
+   "year": 2025,
+   "citation": "Yang TL, Bucalo J, Andermann ML, Chen C. Noradrenergic modulation of an amygdalo-thalamic circuit. bioRxiv (2025).",
+   "link": "https://doi.org/10.1101/2025.10.14.682083"
+  },
+  {
+   "year": 2025,
+   "citation": "Zhang SX*†, Kim A*, Madara JC, Zhu PK, Christenson LF, Lutas A, Kalugin PN, Sunkavalli PS, Jin Y, Pal A, Tian L, Lowell BB, Andermann ML†. Stochastic neuropeptide signals compete to calibrate the rate of satiation. Nature 637 (2025). (*co-first authors; †co-corresponding authors)",
+   "link": "https://doi.org/10.1038/s41586-024-08164-8"
   },
   {
    "year": 2024,
@@ -26,13 +46,13 @@
    "link": ""
   },
   {
-   "year": 2023,
-   "citation": "Jeong H, Namboodiri VMK†s, Jung MW†, Andermann ML†. Sensory cortical ensembles exhibit differential coupling to ripples in distinct hippocampal subregions. Curr Biol. Online ahead of print (2023). (†co-corresponding authors).",
+   "year": 2024,
+   "citation": "Blaeser AS, Zhao J, Sugden AU, Carneiro-Nascimento S, Andermann ML**, Levy D**. Sensitization of meningeal afferents to locomotion-related meningeal deformations in a migraine model. eLife 12:RP91871 (2024). (**co-corresponding authors).",
    "link": ""
   },
   {
-   "year": 2024,
-   "citation": "Blaeser AS, Zhao J, Sugden AU, Carneiro-Nascimento S, Andermann ML**, Levy D**. Sensitization of meningeal afferents to locomotion-related meningeal deformations in a migraine model. eLife 12:RP91871 (2024). (**co-corresponding authors).",
+   "year": 2023,
+   "citation": "Jeong H, Namboodiri VMK†s, Jung MW†, Andermann ML†. Sensory cortical ensembles exhibit differential coupling to ripples in distinct hippocampal subregions. Curr Biol. Online ahead of print (2023). (†co-corresponding authors).",
    "link": ""
   },
   {
@@ -181,13 +201,13 @@
    "link": ""
   },
   {
-   "year": 2013,
-   "citation": "Andermann ML*, Gilfoy N*, Goldey G*, Sachdev R, Wolfel M, McCormick D, Reid, RC, & Levene, M. Chronic cellular imaging of entire cortical columns in awake mice using microprisms. Neuron 80, (2013). (* co-first author)",
+   "year": 2014,
+   "citation": "Goldey G*, Roumis D*, Glickfeld LL, Kerlin A, Reid RC, Bonin V, Schafer D, & Andermann, ML. Removable cranial windows for long-term imaging in awake mice. Nature Protocols 9, (2014). (* co-first author)",
    "link": ""
   },
   {
-   "year": 2014,
-   "citation": "Goldey G*, Roumis D*, Glickfeld LL, Kerlin A, Reid RC, Bonin V, Schafer D, & Andermann, ML. Removable cranial windows for long-term imaging in awake mice. Nature Protocols 9, (2014). (* co-first author)",
+   "year": 2013,
+   "citation": "Andermann ML*, Gilfoy N*, Goldey G*, Sachdev R, Wolfel M, McCormick D, Reid, RC, & Levene, M. Chronic cellular imaging of entire cortical columns in awake mice using microprisms. Neuron 80, (2013). (* co-first author)",
    "link": ""
   },
   {
