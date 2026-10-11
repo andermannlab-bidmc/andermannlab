@@ -1,0 +1,120 @@
+# Admin settings for Pages CMS (https://app.pagescms.org).
+# Lab members sign in there with GitHub, open this repository and edit with forms.
+media:
+  input: img
+  output: img
+
+content:
+  - name: people
+    label: People
+    type: file
+    path: data/people.json
+    fields:
+      - name: current
+        label: Current lab members
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name} ({tier})"
+        fields:
+          - name: name
+            label: Full name (with PhD etc.)
+            type: string
+            required: true
+          - name: title
+            label: Title shown under the name (e.g. PhD Student, Research Technician)
+            type: string
+          - name: tier
+            label: Which row they appear in
+            type: select
+            options:
+              values: [Principal Investigator, Postdoc, Graduate Student, Staff & Students]
+          - name: email
+            type: string
+          - name: scholar
+            label: Google Scholar or profile link
+            type: string
+          - name: awards
+            label: Awards and fellowships (one per line, with years)
+            type: string
+            list: true
+          - name: photo
+            label: Photo (square, black and white)
+            type: image
+            options:
+              path: img/people
+          - name: hover_photo
+            label: Second photo, shown on hover (optional)
+            type: image
+            options:
+              path: img/people
+      - name: alumni
+        label: Previous lab members / alumni (name and role only)
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}, {role}"
+        fields:
+          - name: name
+            type: string
+            required: true
+          - name: role
+            type: select
+            options:
+              values: [Postdoc, Staff Researcher, Sr. Research Associate, Research Associate, PhD Student, MD/PhD Student, MS Student, Research Technician, Research Assistant, Co-Op Student, Summer Student, BSc Student]
+
+  - name: publications
+    label: Publications
+    type: file
+    path: data/publications.json
+    fields:
+      - name: papers
+        label: Papers (the site sorts them by year automatically)
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{year}: {citation}"
+        fields:
+          - name: year
+            type: number
+            required: true
+          - name: citation
+            label: Full citation
+            type: text
+            required: true
+          - name: link
+            label: Link to the paper (DOI or journal page, optional)
+            type: string
+
+  - name: site
+    label: Home, Research & Contact text
+    type: file
+    path: data/site.json
+    fields:
+      - name: tagline
+        label: Home page tagline
+        type: string
+      - name: home_intro
+        label: Home page intro sentence
+        type: text
+      - name: research_title
+        label: Research page subtitle
+        type: string
+      - name: research_paragraphs
+        label: Research page paragraphs
+        type: text
+        list: true
+      - name: contact_name
+        type: string
+      - name: contact_title
+        type: string
+      - name: contact_email
+        type: string
+      - name: contact_phone
+        type: string
+      - name: address
+        label: Mailing address
+        type: text
