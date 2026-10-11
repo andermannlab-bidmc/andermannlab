@@ -1,0 +1,469 @@
+{
+ "current": [
+  {
+   "name": "Mark L. Andermann, PhD",
+   "title": "Principal Investigator, Professor of Medicine, BIDMC",
+   "tier": "Principal Investigator",
+   "email": "manderma@bidmc.harvard.edu",
+   "scholar": "https://www.hms.harvard.edu/dms/neuroscience/fac/Andermann.php",
+   "awards": [],
+   "photo": "img/people/mark-1.jpg",
+   "hover_photo": "img/people/mark-2.jpg"
+  },
+  {
+   "name": "Jonnathan Singh Alvarado, PhD",
+   "title": "Postdoctoral Fellow",
+   "tier": "Postdoc",
+   "email": "jsinghal@bidmc.harvard.edu",
+   "scholar": "https://scholar.google.com/citations?hl=en&oi=ao&user=YXZqjtwAAAAJ",
+   "awards": [
+    "NINDS K99/R00 Award (2024–Current)",
+    "Harvard Brain Initiative Postdoctoral Pioneers Grant (2024–Current)",
+    "Harvard Mind Brain Behavior Postdoctoral Fellow (2022–2024)"
+   ],
+   "photo": "img/people/jonnathan-1.jpg",
+   "hover_photo": "img/people/jonnathan-2.jpg"
+  },
+  {
+   "name": "Xintong Cai, PhD",
+   "title": "Postdoctoral Fellow",
+   "tier": "Postdoc",
+   "email": "xintongcai1@gmail.com",
+   "scholar": "https://scholar.google.com/citations?hl=en&user=zsgm92QAAAAJ",
+   "awards": [
+    "Lefler Postdoctoral Fellow (2024–Current)"
+   ],
+   "photo": "img/people/xintong-1.jpg",
+   "hover_photo": "img/people/xintong-2.jpg"
+  },
+  {
+   "name": "Rachel Essner, PhD",
+   "title": "Postdoctoral Fellow",
+   "tier": "Postdoc",
+   "email": "ressner@g.harvard.edu",
+   "scholar": "https://scholar.google.com/citations?hl=en&sortby=pubdate&user=j9JLXAQAAAAJ&view_op=list_works",
+   "awards": [],
+   "photo": "img/people/rachel-1.jpg",
+   "hover_photo": "img/people/rachel-2.jpg"
+  },
+  {
+   "name": "Ali Haydaroğlu, PhD",
+   "title": "Postdoctoral Fellow",
+   "tier": "Postdoc",
+   "email": "ahaydaro@bidmc.harvard.edu",
+   "scholar": "https://scholar.google.com/citations?user=-ZM_HDMAAAAJ&hl=en",
+   "awards": [],
+   "photo": "img/people/ali-1.jpg"
+  },
+  {
+   "name": "Kathryn Evans",
+   "title": "MD/PhD Student",
+   "tier": "Graduate Student",
+   "email": "kathryn_evans@hms.harvard.edu",
+   "scholar": "https://scholar.google.com/citations?hl=en&sortby=pubdate&user=DRPdtqsAAAAJ&view_op=list_works",
+   "awards": [
+    "NIDA Kirschstein NRSA F30 Fellow (2023)"
+   ],
+   "photo": "img/people/kathryn-1.jpg",
+   "hover_photo": "img/people/kathryn-2.jpg"
+  },
+  {
+   "name": "Crystian Massengill",
+   "title": "PhD Student",
+   "tier": "Graduate Student",
+   "email": "crystian_massengill@g.harvard.edu",
+   "scholar": "https://scholar.google.com/citations?hl=en&oi=ao&user=s-5vgaYAAAAJ",
+   "awards": [
+    "Ellen R. and Melvin J. Gordon Fellow (2024–2025)",
+    "Albert J. Ryan Fellowship (2025)"
+   ],
+   "photo": "img/people/crystian-1.jpg",
+   "hover_photo": "img/people/crystian-2.jpg"
+  },
+  {
+   "name": "Grace Chahyadinata",
+   "title": "PhD Student",
+   "tier": "Graduate Student",
+   "email": "gchahyadinata@g.harvard.edu",
+   "scholar": "",
+   "awards": [],
+   "photo": "img/people/grace-1.jpg",
+   "hover_photo": "img/people/grace-2.jpg"
+  },
+  {
+   "name": "Josh Stern",
+   "title": "PhD Student",
+   "tier": "Graduate Student",
+   "email": "sternj@g.harvard.edu",
+   "scholar": "",
+   "awards": [],
+   "photo": "img/people/josh-1.jpg",
+   "hover_photo": "img/people/josh-2.jpg"
+  },
+  {
+   "name": "Bettina Ventura",
+   "title": "Research Technician",
+   "tier": "Staff & Students",
+   "email": "bventur2@bidmc.harvard.edu",
+   "scholar": "",
+   "awards": [],
+   "photo": "img/people/bettina-1.jpg",
+   "hover_photo": "img/people/bettina-2.jpg"
+  },
+  {
+   "name": "Blake Biever",
+   "title": "Research Technician",
+   "tier": "Staff & Students",
+   "email": "bbiever@bidmc.harvard.edu",
+   "scholar": "",
+   "awards": [],
+   "photo": "img/people/blake-1.jpg",
+   "hover_photo": "img/people/blake-2.jpg"
+  },
+  {
+   "name": "Sarah Cook",
+   "title": "Research Technician",
+   "tier": "Staff & Students",
+   "email": "scook6@bidmc.harvard.edu",
+   "scholar": "",
+   "awards": [],
+   "photo": "img/people/sarah-1.jpg"
+  },
+  {
+   "name": "Ana Veliche",
+   "title": "Part-Time Research Assistant",
+   "tier": "Staff & Students",
+   "email": "veliche.ana@northeastern.edu",
+   "scholar": "",
+   "awards": [],
+   "photo": "img/people/ana-1.jpg",
+   "hover_photo": "img/people/ana-2.jpg"
+  },
+  {
+   "name": "Diti Patel",
+   "title": "Part-Time Research Assistant",
+   "tier": "Staff & Students",
+   "email": "dpatel38@bidmc.harvard.edu",
+   "scholar": "",
+   "awards": [],
+   "photo": "img/people/diti-1.jpg"
+  },
+  {
+   "name": "Ellena Link",
+   "title": "Co-Op Student",
+   "tier": "Staff & Students",
+   "email": "elink@bidmc.harvard.edu",
+   "scholar": "",
+   "awards": [],
+   "photo": "img/people/ellena-1.jpg",
+   "hover_photo": "img/people/ellena-2.jpg"
+  },
+  {
+   "name": "Min Park",
+   "title": "Co-Op Student",
+   "tier": "Staff & Students",
+   "email": "",
+   "scholar": "",
+   "awards": [],
+   "photo": "img/people/min-1.jpg"
+  }
+ ],
+ "alumni": [
+  {
+   "name": "Kiersten Ruda, PhD",
+   "role": "Postdoc"
+  },
+  {
+   "name": "Stephen Zhang, PhD",
+   "role": "Postdoc"
+  },
+  {
+   "name": "Oren Amsalem, PhD",
+   "role": "Postdoc"
+  },
+  {
+   "name": "Hakan Kucukdereli, PhD",
+   "role": "Postdoc"
+  },
+  {
+   "name": "Marta Porniece, PhD",
+   "role": "Postdoc"
+  },
+  {
+   "name": "Ahram Jang",
+   "role": "Staff Researcher"
+  },
+  {
+   "name": "Praneel Sunkavalli",
+   "role": "Research Technician"
+  },
+  {
+   "name": "Zach Stolberg",
+   "role": "Research Technician"
+  },
+  {
+   "name": "Juliana Colaccino",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Charlotte Ausfahl",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Jo DeBolt",
+   "role": "Research Associate"
+  },
+  {
+   "name": "Peter Kalugin",
+   "role": "MD/PhD Student"
+  },
+  {
+   "name": "Jessica Baker",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Madalon Hammell",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Nghia Nguyen",
+   "role": "PhD Student"
+  },
+  {
+   "name": "Hannah Choh",
+   "role": "Research Technician"
+  },
+  {
+   "name": "Julia Edelhaus",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Lizzie Meschisen",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Dhriti Aiylam",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Osama Alturkistani",
+   "role": "Research Technician"
+  },
+  {
+   "name": "Dana Anderson",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Ellen Bamberg",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Melanie Barbini",
+   "role": "Research Technician"
+  },
+  {
+   "name": "Christian Burgess, PhD",
+   "role": "Postdoc"
+  },
+  {
+   "name": "Emily Burke",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Hanaé Carrié",
+   "role": "MS Student"
+  },
+  {
+   "name": "Crista Carty",
+   "role": "Research Technician"
+  },
+  {
+   "name": "Janelle Chen",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Lauren Christenson",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Erin Conner",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Adriana Diaz",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Veronica Diaz",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Chayanne Gumbs",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Jesseba Fernando",
+   "role": "Sr. Research Associate"
+  },
+  {
+   "name": "Kayla Fernando",
+   "role": "Research Technician"
+  },
+  {
+   "name": "Devin Fleharty",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Francisca Finkel",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Vanessa Flores-Maldonado",
+   "role": "Research Technician"
+  },
+  {
+   "name": "Alex Fratzl",
+   "role": "MS Student"
+  },
+  {
+   "name": "Diana Guarino",
+   "role": "Research Technician"
+  },
+  {
+   "name": "Amanda Hasbrouck",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Leslie Hassanein",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Jeremiah Isaac",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Nick Jikomes",
+   "role": "PhD Student"
+  },
+  {
+   "name": "Renee Jozanovic",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Kristian Lensjø, PhD",
+   "role": "Postdoc"
+  },
+  {
+   "name": "Hannah Lauterwasser",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Liang Liang, PhD",
+   "role": "Postdoc"
+  },
+  {
+   "name": "Yoav Livneh, PhD",
+   "role": "Postdoc"
+  },
+  {
+   "name": "Caroline Lommer",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Andrew Lutas, PhD",
+   "role": "Postdoc"
+  },
+  {
+   "name": "Yael Mandelblat-Cerf, PhD",
+   "role": "Postdoc"
+  },
+  {
+   "name": "Omar El Mansour",
+   "role": "MS Student"
+  },
+  {
+   "name": "Kelly McGuire",
+   "role": "PhD Student"
+  },
+  {
+   "name": "Claire McHugh",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Katie McNealy",
+   "role": "Summer Student"
+  },
+  {
+   "name": "Trent Pottala",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Praveena Prasad",
+   "role": "Research Technician"
+  },
+  {
+   "name": "Rohan Ramesh",
+   "role": "PhD Student"
+  },
+  {
+   "name": "Jasmine Reggiani",
+   "role": "PhD Student"
+  },
+  {
+   "name": "Lily Rupert",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Lilly Ryll",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Abhijeet Sambangi",
+   "role": "Research Technician"
+  },
+  {
+   "name": "Shreya Sankar",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Fred Shipley",
+   "role": "PhD Student"
+  },
+  {
+   "name": "Inga Shurnayte",
+   "role": "Co-Op Student"
+  },
+  {
+   "name": "Arthur Sugden, PhD",
+   "role": "Postdoc"
+  },
+  {
+   "name": "Elise Thompson",
+   "role": "PhD Student"
+  },
+  {
+   "name": "David Tingley, PhD",
+   "role": "Postdoc"
+  },
+  {
+   "name": "Côme Willot",
+   "role": "MS Student"
+  },
+  {
+   "name": "Andy Young-Eon Ahn",
+   "role": "Research Assistant"
+  },
+  {
+   "name": "Sasha Yurgenson",
+   "role": "Summer Student"
+  },
+  {
+   "name": "Jeff Zaremba, PhD",
+   "role": "Postdoc"
+  },
+  {
+   "name": "Paula Zhu",
+   "role": "BSc Student"
+  }
+ ]
+}
